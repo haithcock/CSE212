@@ -129,7 +129,7 @@ public class TakingTurnsQueueTests
     // Scenario: Create a queue with the following people and turns: Tim (Forever), Sue (3)
     // Run 10 times.
     // Expected Result: Tim, Sue, Tim, Sue, Tim, Sue, Tim, Tim, Tim, Tim
-    // Defect(s) Found: Finds Sue instead of Tim, missing code in GetNextPerson that handles negatives
+    // Defect(s) Found: Finds Sue instead of Tim, missing code in GetNextPerson that handles negatives.
     public void TestTakingTurnsQueue_ForeverNegative()
     {
         var timTurns = -3;

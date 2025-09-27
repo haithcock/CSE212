@@ -10,7 +10,7 @@ public class PriorityQueueTests
     // Scenario: Add 3 Priority Queue with ascending priority numbers then remove
     // Rumi (1), Mira (2), Zoey(3) 
     // Expected Result: Zoey, Mira, Rumi
-    // Defect(s) Found: The item with is not being removed with dequeue
+    // Defect(s) Found: The code is returning the correct value but it isnt actually removing the item with dequeue.
     public void TestPriorityQueue_1()
     {
         var priorityQueue = new PriorityQueue();
@@ -43,7 +43,7 @@ public class PriorityQueueTests
     // Scenario: Test for items with the same priority number
     //Bobby(2),  Rumi(3), Mira(1), Zoey(1)
     // Expected Result: rumi, bobby, mira, zoey
-    // Defect(s) Found: Instead of taking Mira who was added first, it takes Zoey. Dequeue is missing the functionality to handle items with FIFO with the same priority number
+    // Defect(s) Found: Instead of taking Mira who was added first, it takes Zoey. Dequeue is missing the functionality to handle items with FIFO with the same priority number.
     public void TestPriorityQueue_2()
     {
         var priorityQueue = new PriorityQueue();
@@ -76,7 +76,7 @@ public class PriorityQueueTests
     [TestMethod]
     // Scenario: Create an empty priority queue and use dequeue to get an error
     // Expected Result(s): InvalidOperationException
-    // Defect(s):  
+    // Defect(s):  None
     public void TestPriorityQueue_3()
     {
         var priorityQueue = new PriorityQueue();
