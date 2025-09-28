@@ -1,4 +1,4 @@
-﻿Console.WriteLine("\n======================\nUnique Letters\n======================");
+﻿﻿Console.WriteLine("\n======================\nUnique Letters\n======================");
 UniqueLetters.Run();
 
 Console.WriteLine("\n======================\nDisplay Sums\n======================");
@@ -14,5 +14,5 @@ Basketball.Run();
 // Console.WriteLine("\n======================\nDisplay Sums\n======================");
 // DisplaySumsSolution.Run();
 
-// Console.WriteLine("\n======================\nBasketball\n======================");
-// BasketballSolution.Run();
+Console.WriteLine("\n======================\nBasketball\n======================");
+BasketballSolution.Run();
